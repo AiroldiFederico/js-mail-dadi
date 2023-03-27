@@ -84,9 +84,6 @@ button {
 	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
 	background-color:#ccc2a6;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
 
 
