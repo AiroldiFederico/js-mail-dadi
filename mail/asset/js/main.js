@@ -7,5 +7,6 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 
 function check() {
-    console.log()
+    let emailtocheck = document.getElementById('emailtocheck').value;
+    console.log(emailtocheck)
 }
