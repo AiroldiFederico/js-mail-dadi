@@ -28,7 +28,7 @@ body {
 .palette-5-hsla { color: hsla(219, 19, 12, 1); }
 
 section {
-    height: 20rem;
+    height: 18rem;
     background-color: #5D75A6;
 }
 
@@ -38,4 +38,8 @@ h1 {
 
 button {
     background-color: rgba(184, 179, 216, 1) !important;
+}
+
+.w-35 {
+    width: 40%;
 }

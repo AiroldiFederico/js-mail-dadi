@@ -36,11 +36,17 @@
 
                 <h1>Check your mail!</h1>
 
-                <label for="Email" class="form-label">Email address</label>
+                <label for="Email" class="form-label mt-2">Email address</label>
                 <div class="d-flex gap-2">
-                    <input type="email" class="form-control w-50" id="emailtocheck">
+                    <input type="email" class="form-control w-35" id="emailtocheck">
                     <button type="button" class="btn" onclick="check()">Check</button>
                     <span id="result" class="d-flex align-items-center ms-2"></span>
+                </div>
+                <label for="Email" class="form-label mt-4">Aggiungi la tua Email</label>
+                <div class="d-flex gap-2">
+                    <input type="email" class="form-control w-35" id="addemail">
+                    <button type="button" class="btn" onclick="add()">Aggiungi</button>
+                    <span id="addcorrect" class="d-flex align-items-center ms-2"></span>
                 </div>
 
             </section>

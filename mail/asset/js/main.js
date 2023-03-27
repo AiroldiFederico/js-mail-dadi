@@ -23,3 +23,9 @@ function check() {
 
 
 }
+
+function add() {
+    let addemail = document.getElementById('addemail').value;
+    arrayEmail.push(addemail);
+    document.getElementById('addcorrect').innerHTML = 'Aggiunto correttamente';
+}
