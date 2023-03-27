@@ -1,5 +1,41 @@
 body {
     font-family: 'Rubik', sans-serif !important; font-weight: bold !important;
     height: 100vh !important;
+    background-color: #B9B4D9;
+}
 
+/* PALETTE */
+
+/* Color Theme Swatches in Hex */
+.palette-1-hex { color: #B9B4D9; }
+.palette-2-hex { color: #5D75A6; }
+.palette-3-hex { color: #405173; }
+.palette-4-hex { color: #283040; }
+.palette-5-hex { color: #1A1E26; }
+
+/* Color Theme Swatches in RGBA */
+.palette-1-rgba { color: rgba(184, 179, 216, 1); }
+.palette-2-rgba { color: rgba(92, 117, 165, 1); }
+.palette-3-rgba { color: rgba(64, 81, 114, 1); }
+.palette-4-rgba { color: rgba(40, 48, 63, 1); }
+.palette-5-rgba { color: rgba(25, 29, 38, 1); }
+
+/* Color Theme Swatches in HSLA */
+.palette-1-hsla { color: hsla(247, 32, 77, 1); }
+.palette-2-hsla { color: hsla(219, 29, 50, 1); }
+.palette-3-hsla { color: hsla(219, 28, 35, 1); }
+.palette-4-hsla { color: hsla(219, 22, 20, 1); }
+.palette-5-hsla { color: hsla(219, 19, 12, 1); }
+
+section {
+    height: 20rem;
+    background-color: #5D75A6;
+}
+
+h1 {
+    color: rgba(25, 29, 38, 1);
+}
+
+button {
+    background-color: rgba(184, 179, 216, 1) !important;
 }
