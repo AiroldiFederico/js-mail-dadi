@@ -10,9 +10,11 @@ stampa un messaggio appropriato sull’esito del controllo.
 let arrayEmail = ['emma.smith@gmail.com', 'paul.taylor@gmail.com', 'liam.lee@gmail.com', 'frank.jones@gmail.com', 'steve.evans@gmail.com', 'steve.taylor@gmail.com', 'isabel.klein@gmail.com', 'mary.lee@gmail.com', 'bob.davis@gmail.com', 'mary.irwin@gmail.com', 'isabel.patel@gmail.com', 'liam.carter@gmail.com', 'tina.brown@gmail.com', 'henry.nguyen@gmail.com', 'grace.carter@gmail.com', 'tina.patel@gmail.com', 'isabel.robinson@gmail.com', 'isabel.irwin@gmail.com', 'emma.robinson@gmail.com', 'paul.carter@gmail.com']
 
 
+
 function check() {
 
     let emailtocheck = document.getElementById('emailtocheck').value;
+    
     
     //metodo 1
     // if (arrayEmail.indexOf(emailtocheck) !== -1) {
@@ -26,18 +28,18 @@ function check() {
 
 
     for (let i = 0; i < arrayEmail.length; i++) {
-
-        let arrayEmail = ['emma.smith@gmail.com', 'paul.taylor@gmail.com', 'liam.lee@gmail.com', 'frank.jones@gmail.com', 'steve.evans@gmail.com', 'steve.taylor@gmail.com', 'isabel.klein@gmail.com', 'mary.lee@gmail.com', 'bob.davis@gmail.com', 'mary.irwin@gmail.com', 'isabel.patel@gmail.com', 'liam.carter@gmail.com', 'tina.brown@gmail.com', 'henry.nguyen@gmail.com', 'grace.carter@gmail.com', 'tina.patel@gmail.com', 'isabel.robinson@gmail.com', 'isabel.irwin@gmail.com', 'emma.robinson@gmail.com', 'paul.carter@gmail.com']
-
         
-        let emailtocheck = document.getElementById('emailtocheck').value;
 
         if (arrayEmail[i] == emailtocheck) {
+
             document.getElementById('result').innerHTML = 'corretto';
-            console.log(arrayEmail[i])
+
         } else {
             document.getElementById('result').innerHTML = 'sbagliato';
+
+            //debug
             console.log(arrayEmail[i])
+            console.log(emailtocheck)
         }
     }
 
