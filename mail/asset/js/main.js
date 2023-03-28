@@ -15,8 +15,7 @@ function check() {
 
     let emailtocheck = document.getElementById('emailtocheck').value;
     
-    
-    //metodo 1
+    //metodo alternativo
     // if (arrayEmail.indexOf(emailtocheck) !== -1) {
     //     document.getElementById('result').innerHTML = 'corretto';
     // }
@@ -24,15 +23,12 @@ function check() {
     //     document.getElementById('result').innerHTML = 'sbagliato';
     // }
 
-    //metodo 2
-
-
     for (let i = 0; i < arrayEmail.length; i++) {
         
 
         if (arrayEmail[i] == emailtocheck) {
 
-            document.getElementById('result').innerHTML = 'corretto';
+            return document.getElementById('result').innerHTML = 'corretto';
 
         } else {
             document.getElementById('result').innerHTML = 'sbagliato';
